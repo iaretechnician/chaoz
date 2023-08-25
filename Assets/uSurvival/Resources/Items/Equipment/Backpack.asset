@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c06992fabc4400c8c2e33ff979c9e2, type: 3}
+  m_Name: Backpack
+  m_EditorClassIdentifier: 
+  maxStack: 1
+  maxDurability: 1000
+  destroyable: 1
+  toolTip: '<b>{NAME}</b>
+
+    Carry More Gear
+
+
+    {DEFENSEBONUS} Defense
+
+    Durability:
+    {DURABILITY}%'
+  image: {fileID: 21300000, guid: 292161c447fe0184eb131060b5e2f059, type: 3}
+  drop: {fileID: 6494188729457084656, guid: de25308b8890e004082a037d019c3029, type: 3}
+  modelPrefab: {fileID: 4109760575888337259, guid: a6be0b814a169ec459adaf3980191fb0,
+    type: 3}
+  category: Chest
+  keepUsingWhileButtonDown: 0
+  successfulUseSound: {fileID: 0}
+  failedUseSound: {fileID: 0}
+  emptySound: {fileID: 0}
+  cooldown: 0
+  _cooldownCategory: 
+  shoulderLookAtWhileHolding: 0
+  useDirectly: 0
+  healthBonus: 0
+  hydrationBonus: 0
+  nutritionBonus: 0
+  damageBonus: 0
+  defenseBonus: 10

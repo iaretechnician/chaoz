@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2dab61ac11af4e81a71e209d3f091f2, type: 3}
+  m_Name: Crutch
+  m_EditorClassIdentifier: 
+  maxStack: 1
+  maxDurability: 1000
+  destroyable: 1
+  toolTip: 'Break a leg
+
+
+    {DAMAGE} Damage
+
+    Attack Interval: {COOLDOWN}s
+
+    Durability:
+    {DURABILITY}%'
+  image: {fileID: 21300000, guid: 8e1dd4f4faaa2ef4e99b01f9aebbe266, type: 3}
+  drop: {fileID: 2780308107359070648, guid: 2095567d4eeff9c4e992b59316aab645, type: 3}
+  modelPrefab: {fileID: 1031729302790486, guid: a38ed8f19484f2745a5430c48d50e9ca,
+    type: 3}
+  category: WeaponTwohand
+  keepUsingWhileButtonDown: 1
+  successfulUseSound: {fileID: 8300000, guid: 2e184402c5875a34da99e0f0be445136, type: 3}
+  failedUseSound: {fileID: 8300000, guid: 41fd1dfb8752a4f6cb3d9f593d5538ee, type: 3}
+  emptySound: {fileID: 0}
+  cooldown: 0.6
+  _cooldownCategory: 
+  shoulderLookAtWhileHolding: 0
+  useDirectly: 0
+  attackRange: 2
+  damage: 10
+  upperBodyAnimationParameter: UPPERBODY_AXE
+  sphereCastRadius: 0.5
